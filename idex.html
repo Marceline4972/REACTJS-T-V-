@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Đặt Vé Xem Phim Cyberlearn.vn</title>
+  <link rel="stylesheet" href="BaiTapBookingTicket.css" />
+  <script type="module">
+    import jsonServer from 'https://cdn.jsdelivr.net/npm/json-server@1.0.0-beta.3/+esm'
+  </script>
+
+</head>
+<body style="background-image: url('bgmovie.jpg'); background-size: cover;">
+
+  <header class="header">
+    <h1 class="title">ĐẶT VÉ XEM PHIM CYBERLEARN.VN</h1>
+  </header>
+
+  <main class="booking-container">
+    <div class="screen">Màn hình</div>
+
+    <div class="ghe">
+      <div class="row" id="row-A">
+        <div class="seat available" id="A">A</div>
+      </div>
+    </div>
+    <div class="ghe">
+      <div class="row" id="row-B">
+        <div class="seat available" id="B">B</div>
+      </div>
+    </div>
+    <div class="ghe">
+        <div class="row" id="row-C">
+            <div class="seat available" id="C">C</div>
+        </div>
+    </div>
+    <div class="ghe">
+      <div class="row" id="row-D">
+        <div class="seat available" id="D">D</div>
+      </div>
+    </div>
+    <div class="ghe">
+      <div class="row" id="row-E">
+        <div class="seat available" id="E">E</div>
+      </div>
+    </div>
+    <div class="ghe">
+      <div class="row" id="row-F">
+        <div class="seat available" id="F">F</div>
+      </div>
+    </div>
+    <div class="ghe">
+      <div class="row" id="row-G">
+        <div class="seat available" id="G">G</div>
+      </div>
+    </div>
+    <div class="ghe">
+      <div class="row" id="row-H">
+        <div class="seat available" id="H">H</div>
+      </div>
+    </div>
+    <div class="ghe">
+      <div class="row" id="row-I">
+        <div class="seat available" id="I">I</div>
+      </div>
+    </div>
+    <div class="ghe">
+      <div class="row" id="row-J">
+        <div class="seat available" id="J">J</div>
+      </div>
+    </div>
+    <div class="ghe">
+      <div class="row" id="row-K">
+        <div class="seat available" id="K">K</div>
+      </div>
+    </div>
+
+    <section class="gheDangChon">
+      <h3>DANH SÁCH GHẾ BẠN CHỌN</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Số ghế</th>
+            <th>Giá</th>
+            <th>Hủy</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>A1</td>
+            <td>150.000₫</td>
+          </tr>
+          <tr>
+            <td>A2</td>
+            <td>150.000₫</td>
+          </tr>
+          <tr>
+            <td>A3</td>
+            <td>150.000₫</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="2">Tổng tiền</td>
+            <td>450.000₫</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+  </main>
+
+  <script src="danhSachGhe.json"></script>
+</body>
+</html>
